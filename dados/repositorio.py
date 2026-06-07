@@ -4,7 +4,7 @@ from datetime import datetime
 
 from modelos.cliente import Cliente
 from modelos.atendente import Atendente
-from modelos.atendente import Atendimento
+from modelos.atendimento import Atendimento
 
 PASTA_DADOS = os.path.join(os.path.dirname(__file__), "arquivos")
 ARQUIVO_CLIENTES = os.path.join(PASTA_DADOS, "clientes.json")
